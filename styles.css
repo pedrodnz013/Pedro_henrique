@@ -1,0 +1,111 @@
+.linha {
+    background-color: #d19c0aa2;
+    color: #000000;
+    padding: 15px;
+    font-size: xx-large;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+p[_ngcontent-bxr-c23],
+li[_ngcontent-bxr-c23] {
+    color: #000000;
+    padding: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.perfil[_ngcontent-vjb-c23] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.imgPerfil[_ngcontent-vjb-c23] {
+    min-width: 25vw;
+}
+
+.imgTamanho[_ngcontent-vjb-c23] {
+    height: 50vh;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: rgb(238, 228, 84);
+    border: var(--bs-border-width) solid rgb(0, 0, 0);
+    border-radius: var(--bs-border-radius);
+    max-width: 100%;
+    height: auto;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.perfil[_ngcontent-vjb-c23] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.picsum-img-wrapper[_ngcontent-evx-c23] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img_carrosel {
+    width: 50vw;
+}
+
+.carousel {
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.carousel-caption {
+    padding: 10px;
+    background-color: #4e4e4e8e;
+}
+
+.preferencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Capa_1 {
+    fill: darkorange;
+    
+}
+.Capa_2 {
+    background-color: darkorange;
+}
+#Capa_3 {
+
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+      background-color: aquamarine;
+    }
+  }
