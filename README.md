@@ -1,6 +1,6 @@
-#Site de Apresentação do Pedro Henrique
+# Site de Apresentação do Pedro Henrique
 
-##lista de tarefas
+## lista de tarefas
 
 - [ ] ler a documentação abaixo linguagem markdown
 - [ ] Montar o README.md dos seus projetos no Github
