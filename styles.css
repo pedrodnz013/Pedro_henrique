@@ -8,8 +8,8 @@
     margin-bottom: 15px;
 }
 
-p[_ngcontent-bxr-c23],
-li[_ngcontent-bxr-c23] {
+p,
+li {
     color: #000000;
     padding: 10px;
 }
@@ -27,18 +27,18 @@ p {
     margin-inline-end: 0px;
 }
 
-.perfil[_ngcontent-vjb-c23] {
+.perfil {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: justify;
 }
 
-.imgPerfil[_ngcontent-vjb-c23] {
+.imgPerfil {
     min-width: 25vw;
 }
 
-.imgTamanho[_ngcontent-vjb-c23] {
+.imgTamanho {
     height: 50vh;
 }
 
@@ -50,25 +50,19 @@ p {
     max-width: 100%;
     height: auto;
 }
-
-img,
-svg {
-    vertical-align: middle;
-}
-
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
 
-.perfil[_ngcontent-vjb-c23] {
+.perfil {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: justify;
 }
 
-.picsum-img-wrapper[_ngcontent-evx-c23] {
+.picsum-img-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,7 +71,9 @@ img {
 .img_carrosel {
     width: 50vw;
 }
-
+.carousel-item {
+    background-color: red;
+}
 .carousel {
     width: 50vw;
     margin-left: 25vw;
@@ -93,19 +89,56 @@ img {
     flex-direction: row;
     justify-content: space-around;
 }
-#Capa_1 {
+li {
+   display: flex;
+   flex-direction: row; 
+   justify-content: safe start;
+   align-items: center;
+}
+.emoji_filme {
     fill: darkorange;
-    
+    stroke: rgb(0, 0, 0);
+    stroke-width: 0.5;
+    width: 30px;
 }
-.Capa_2 {
-    background-color: darkorange;
+.emoji_jogo {
+    width: 30px;
 }
-#Capa_3 {
-
+.preferencias h5 {
+    text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-    .body {
+.linksocial {
+    width: 20vw;
+    padding-bottom: 10px;
+}
+.linksocial svg {
+    width: 50px;
+}
+.linksocial a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pé {
+    width: 100%; 
+    height: 50px;
+    background-color: #000000;
+    font-size: medium;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+}
+@media screen and (max-width: 500px) {
+    p {
       background-color: aquamarine;
+    }
+    .perfil {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
     }
   }
